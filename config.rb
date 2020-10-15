@@ -23,10 +23,10 @@ configure :development do
   activate :livereload
 end
 
-config[:css_dir] = 'pay-product-page/stylesheets'
-config[:images_dir] = 'pay-product-page/images'
-config[:fonts_dir] = 'pay-product-page/fonts'
-config[:js_dir] = 'pay-product-page/javascripts'
+config[:css_dir] = 'product-page/stylesheets'
+config[:images_dir] = 'product-page/images'
+config[:fonts_dir] = 'product-page/fonts'
+config[:js_dir] = 'product-page/javascripts'
 
 ignore '**/javascripts/*test*.js'
 

@@ -1,6 +1,6 @@
 ---
 applications:
-- name: pay-product-page-test
+- name: product-page
   memory: 64M
   path: ./build
   buildpack: staticfile_buildpack

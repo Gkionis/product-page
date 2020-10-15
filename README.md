@@ -34,7 +34,7 @@ Look at the CSS for the individual components for usage examples and notes.
 
 ## Releasing a Static Copy of the Site
 
-Use the command line script `github-release` to build an artifact containing the generated static site which is published as a [GitHub release](https://github.com/alphagov/pay-product-page/releases).
+Use the command line script `github-release` to build an artifact containing the generated static site which is published as a [GitHub release](https://github.com/alphagov/product-page/releases).
 
 1. Checkout and `pull` the `master` branch
 2. Follow the instructions above under [Building a static copy of the site](#building-a-static-copy-of-the-site)
@@ -46,7 +46,7 @@ Use the command line script `github-release` to build an artifact containing the
 >- `GITHUB_TOKEN` is the personal access token you generated
 >- the `--version` argument specifies the version of the new release (pick something sensible based on the previous releases)
 
-To deploy the product page, update the `pay-product-page` dependency in [`pay-frontend`](https://github.com/alphagov/pay-frontend/blob/master/package.json) to point to the GitHub URL for the `.tgz` file associated with the [GitHub release](https://github.com/alphagov/pay-product-page/releases). Then deploy `pay-frontend`.
+To deploy the product page, update the `product-page` dependency in [`pay-frontend`](https://github.com/alphagov/pay-frontend/blob/master/package.json) to point to the GitHub URL for the `.tgz` file associated with the [GitHub release](https://github.com/alphagov/product-page/releases). Then deploy `pay-frontend`.
 
 ## Licence
 

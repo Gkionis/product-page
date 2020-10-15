@@ -144,7 +144,7 @@
     box-shadow: 0 2px 0 #004172;
 
     @include govuk-device-pixel-ratio($ratio: 2) {
-      background-image: file-url('/pay-product-page/images/hero-button/arrow@2x.png');
+      background-image: file-url('/product-page/images/hero-button/arrow@2x.png');
     }
   }
 
