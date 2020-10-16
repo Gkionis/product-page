@@ -81,9 +81,8 @@
             <%
               {
                 'Get started' => '/getstarted/',
-                'Documentation' => 'https://docs.payments.service.gov.uk',
-                'Support' => '/support/',
-                'Sign in' => 'https://selfservice.payments.service.gov.uk/login'
+                'Documentation' => '/https://github.com/alphagov/',
+                'Support' => '/support/'
               }.each do |title, url|
             %>
               <li class="govuk-header__navigation-item<% if url == current_page.url %> govuk-header__navigation-item--active" aria-current="page<% end %>">
@@ -98,6 +97,8 @@
       </div>
     </header>
 
+    <% javascript_include_tag 'validation'%>
+    <% stylesheet_link_tag 'application.min'%>
     <%= yield %>
 
     <footer class="govuk-footer" role="contentinfo">
